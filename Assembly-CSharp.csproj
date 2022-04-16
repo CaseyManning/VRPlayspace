@@ -56,19 +56,19 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/_Scripts/HandDirectInteractor.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/GeneratePathExample.cs" />
-    <Compile Include="Assets/PhoneCable.cs" />
+    <Compile Include="Assets/_Scripts/PhoneCable.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/PathSceneTool.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/PathSpawner.cs" />
+    <Compile Include="Assets/_Scripts/PayphoneButton.cs" />
+    <Compile Include="Assets/_Scripts/Payphone.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/PathPlacer.cs" />
-    <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
-    <Compile Include="Assets/PathAutoEndPoints.cs" />
-    <Compile Include="Assets/CylinderGenerator.cs" />
+    <Compile Include="Assets/_Scripts/PathAutoEndPoints.cs" />
+    <Compile Include="Assets/_Scripts/CylinderGenerator.cs" />
+    <Compile Include="Assets/_Scripts/fingor.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/PathFollower.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/RoadMeshCreator.cs" />
-    <Compile Include="Assets/HandDirectInteractor.cs" />
-    <Compile Include="Assets/PayphoneButton.cs" />
-    <Compile Include="Assets/fingor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
