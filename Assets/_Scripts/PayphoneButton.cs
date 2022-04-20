@@ -50,7 +50,12 @@ public class PayphoneButton : XRBaseInteractable
 
     public void buttonPress()
     {
-        numPresses += 1;
+        if (Time.time - lastPressTime > 0.5f)
+        {
+            lastPressTime = Time.time;
+
+            numPresses += 1;
+        }
     }
 
     private void Start()
@@ -95,10 +100,10 @@ public class PayphoneButton : XRBaseInteractable
     {
         bool inPosition = InPosition();
 
-        if(inPosition && Time.time - lastPressTime > 0.5f)
+        if(inPosition && !didPress)
         {
             OnPress.Invoke();
-            lastPressTime = Time.time;
+            
             didPress = true;
         } else
         {

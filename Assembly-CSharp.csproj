@@ -63,12 +63,14 @@
     <Compile Include="Assets/PathCreator/Examples/Scripts/PathSpawner.cs" />
     <Compile Include="Assets/_Scripts/PayphoneButton.cs" />
     <Compile Include="Assets/_Scripts/Payphone.cs" />
+    <Compile Include="Assets/WallBoundaruy.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/PathPlacer.cs" />
     <Compile Include="Assets/_Scripts/PathAutoEndPoints.cs" />
     <Compile Include="Assets/_Scripts/CylinderGenerator.cs" />
     <Compile Include="Assets/_Scripts/fingor.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/PathFollower.cs" />
     <Compile Include="Assets/PathCreator/Examples/Scripts/RoadMeshCreator.cs" />
+    <Compile Include="Assets/test.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

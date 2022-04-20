@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61056
+50637
 Successfully changed project path to: /Users/caseymanning/Documents/artstudi169/Payphone
 /Users/caseymanning/Documents/artstudi169/Payphone
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,13 +54,13 @@ Successfully changed project path to: /Users/caseymanning/Documents/artstudi169/
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 159.37 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 7.86 ms.
+Refreshing native plugins compatible for Editor in 168.64 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 9.34 ms.
 Initialize engine version: 2021.2.16f1 (559fc0ec6670)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/caseymanning/Documents/artstudi169/Payphone/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-LG UltraFine preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
 Metal devices available: 1
 0: Intel(R) Iris(TM) Plus Graphics (low power)
 Using device Intel(R) Iris(TM) Plus Graphics (low power)
@@ -69,94 +69,95 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56437
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.16f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.004427 seconds.
+Registered in 0.004807 seconds.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 119.24 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.48 ms.
+Refreshing native plugins compatible for Editor in 139.45 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.49 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.984 seconds
+- Completed reload, in  1.172 seconds
 Domain Reload Profiling:
-	ReloadAssembly (985ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (1173ms)
+		BeginReloadAssembly (216ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (677ms)
-			LoadAssemblies (142ms)
+		EndReloadAssembly (762ms)
+			LoadAssemblies (218ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
+			SetupTypeCache (198ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (386ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (449ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (68ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (120ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (136ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
+				InitializePlatformSupportModulesInManaged (84ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (140ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003660 seconds.
+Registered in 0.005555 seconds.
+Android Extension - Scanning For ADB Devices 4108 ms
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/caseymanning/Documents/artstudi169/Payphone/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/caseymanning/Documents/artstudi169/Payphone/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 143.95 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.57 ms.
+Refreshing native plugins compatible for Editor in 129.90 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  4.720 seconds
+- Completed reload, in  5.527 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4722ms)
-		BeginReloadAssembly (259ms)
+	ReloadAssembly (5530ms)
+		BeginReloadAssembly (209ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (158ms)
-		EndReloadAssembly (4297ms)
-			LoadAssemblies (149ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (5096ms)
+			LoadAssemblies (183ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (432ms)
-			ReleaseScriptCaches (11ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (3522ms)
+			SetupTypeCache (568ms)
+			ReleaseScriptCaches (9ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (4167ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (145ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (3119ms)
-				ProcessInitializeOnLoadMethodAttributes (118ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (3743ms)
+				ProcessInitializeOnLoadMethodAttributes (120ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.60 ms.
-Unloading 5634 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (467.5 KB). Loaded Objects now: 6093.
-Memory consumption went from 361.4 MB to 360.9 MB.
-Total: 6.406651 ms (FindLiveObjects: 1.068385 ms CreateObjectMapping: 0.669621 ms MarkObjects: 4.220154 ms  DeleteObjects: 0.446977 ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.73 ms.
+Unloading 5635 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (475.9 KB). Loaded Objects now: 6096.
+Memory consumption went from 363.3 MB to 362.8 MB.
+Total: 4.954341 ms (FindLiveObjects: 0.412055 ms CreateObjectMapping: 0.252127 ms MarkObjects: 3.900336 ms  DeleteObjects: 0.388500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,449 +170,336 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 14489.395672 seconds.
-  path: Assets/textures/power_box_01_diff_1k.jpg
-  artifactKey: Guid(d0b98f36664144382bd459cfd67748b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/power_box_01_diff_1k.jpg using Guid(d0b98f36664144382bd459cfd67748b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '27eeca84cff489a497a11b04ef0eeb33') in 2.952568 seconds 
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.50 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.52 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (446.8 KB). Loaded Objects now: 6096.
+Memory consumption went from 235.6 MB to 235.1 MB.
+Total: 5.249399 ms (FindLiveObjects: 0.702014 ms CreateObjectMapping: 0.393929 ms MarkObjects: 3.763916 ms  DeleteObjects: 0.388425 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.177847 seconds.
-  path: Assets/textures/power_box_01_nor_gl_1k.exr
-  artifactKey: Guid(d25e3b491a623414283d3aa0ecf8481f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/power_box_01_nor_gl_1k.exr using Guid(d25e3b491a623414283d3aa0ecf8481f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '226315237d0ccb99342ddffb87bf42f8') in 0.922240 seconds 
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.04 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.50 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (438.2 KB). Loaded Objects now: 6096.
+Memory consumption went from 235.6 MB to 235.1 MB.
+Total: 4.973451 ms (FindLiveObjects: 0.467336 ms CreateObjectMapping: 0.631753 ms MarkObjects: 3.513827 ms  DeleteObjects: 0.359449 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 2.498514 seconds.
-  path: Assets/power_box_01_1k.blend
-  artifactKey: Guid(6e713d2f208ed4f03b1fffb0b9fa471e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/power_box_01_1k.blend using Guid(6e713d2f208ed4f03b1fffb0b9fa471e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '9c72b4feb7fdcd8621e354644a933f28') in 1.893742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.427197 seconds.
-  path: Assets/power_box_01.mat
-  artifactKey: Guid(6cd8a1597f0e041148bd9590cf40ae8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/power_box_01.mat using Guid(6cd8a1597f0e041148bd9590cf40ae8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '16551dde37e7c923655af575badb53d4') in 1.377221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 58.477437 seconds.
-  path: Assets/Television_01.mat
-  artifactKey: Guid(ae9557a9de4d74ccda953f9818d0bc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Television_01.mat using Guid(ae9557a9de4d74ccda953f9818d0bc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'e731d9b2444dbd86af8da9095d98bc32') in 0.144945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.351352 seconds.
-  path: Assets/textures/power_box_01.mat
-  artifactKey: Guid(6cd8a1597f0e041148bd9590cf40ae8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/power_box_01.mat using Guid(6cd8a1597f0e041148bd9590cf40ae8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'e89bdbdf885392063dcf54c88b689d92') in 0.601715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 94.528108 seconds.
-  path: Assets/Television_01.mat
-  artifactKey: Guid(cf259c310524f492d9d43504c5cd957e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Television_01.mat using Guid(cf259c310524f492d9d43504c5cd957e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '4a5df050e5d46cf9ac7e224fa0b8a87a') in 0.062001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.952912 seconds.
-  path: Assets/textures/Television_01.mat
-  artifactKey: Guid(ae9557a9de4d74ccda953f9818d0bc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/Television_01.mat using Guid(ae9557a9de4d74ccda953f9818d0bc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '3a695058d47695766a35779eef518162') in 0.061178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 70.137898 seconds.
-  path: Assets/textures/Television_01.mat
-  artifactKey: Guid(cf259c310524f492d9d43504c5cd957e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/Television_01.mat using Guid(cf259c310524f492d9d43504c5cd957e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '3eb158b5eb64f8777de75a66bac826c9') in 0.643446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.852161 seconds.
-  path: Assets/Television_01_1k.fbx
-  artifactKey: Guid(60646ed7bc8924743845f52876818c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Television_01_1k.fbx using Guid(60646ed7bc8924743845f52876818c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'c8f191fd92900928b1d20d31cef0f230') in 0.400861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 92.827478 seconds.
-  path: Assets/barrel_03_1k.fbx
-  artifactKey: Guid(3f02fe8e1b313412ca25c5e0df4c1e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/barrel_03_1k.fbx using Guid(3f02fe8e1b313412ca25c5e0df4c1e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475880173115c75d305abab1a5ec1a09') in 0.301611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 53.201575 seconds.
-  path: Assets/textures/barrel_03_diff_1k.jpg
-  artifactKey: Guid(a9772f95064c84628862e65fde17bcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/barrel_03_diff_1k.jpg using Guid(a9772f95064c84628862e65fde17bcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'e55fd819b05225d91e5bddf5bb0513c7') in 0.076696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/textures/barrel_03_nor_gl_1k.exr
-  artifactKey: Guid(670e098445ae849f7804b7945b4aa4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/barrel_03_nor_gl_1k.exr using Guid(670e098445ae849f7804b7945b4aa4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '4aa7c2ec568a6f5124a98a05515ee547') in 0.113783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.484349 seconds.
-  path: Assets/textures/barrel_03_nor_gl_1k.exr
-  artifactKey: Guid(670e098445ae849f7804b7945b4aa4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/barrel_03_nor_gl_1k.exr using Guid(670e098445ae849f7804b7945b4aa4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'd4e3231d2a6a62ca3f378983276588a4') in 0.046063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.821044 seconds.
-  path: Assets/barrel_03_1k.fbx
-  artifactKey: Guid(3f02fe8e1b313412ca25c5e0df4c1e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/barrel_03_1k.fbx using Guid(3f02fe8e1b313412ca25c5e0df4c1e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '336a6b9ffb1ce1a1ca3104fe450e9021') in 0.135153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.071617 seconds.
-  path: Assets/barrel_03.mat
-  artifactKey: Guid(50efe58cc4f3a4fcb8257a353ba68c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/barrel_03.mat using Guid(50efe58cc4f3a4fcb8257a353ba68c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'a68eb5e9e77a0678dfdfffb24a104d92') in 0.057935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4032.647120 seconds.
-  path: Assets/textures/barrel_03.mat
-  artifactKey: Guid(50efe58cc4f3a4fcb8257a353ba68c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/barrel_03.mat using Guid(50efe58cc4f3a4fcb8257a353ba68c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '76f65196127082ba10eae836031010d2') in 0.103807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 154.316067 seconds.
-  path: Assets/modular_industrial_pipes_01_1k.fbx
-  artifactKey: Guid(58335046e050c49f4b46ff02809e6590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/modular_industrial_pipes_01_1k.fbx using Guid(58335046e050c49f4b46ff02809e6590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83abe9c034d999486c4a87d5fcb79a9') in 0.244920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.012692 seconds.
-  path: Assets/textures/modular_industrial_pipes_01_group01_diff_1k.png
-  artifactKey: Guid(c18541fb09ff34289bc408af87cf55ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/modular_industrial_pipes_01_group01_diff_1k.png using Guid(c18541fb09ff34289bc408af87cf55ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '0171eab79e104124f480fbecca2b5c48') in 2.492206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.692184 seconds.
-  path: Assets/textures/modular_industrial_pipes_01_group01_nor_gl_1k.png
-  artifactKey: Guid(8f3dcb7bd1fed475c9ff014dc6461cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/modular_industrial_pipes_01_group01_nor_gl_1k.png using Guid(8f3dcb7bd1fed475c9ff014dc6461cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '30581ca97b24bcd4ffc23a1d173de7fd') in 0.083964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/textures/modular_industrial_pipes_01_group02_metal_1k.png
-  artifactKey: Guid(eefdbf3e26a214af7a7493d73dd81cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/modular_industrial_pipes_01_group02_metal_1k.png using Guid(eefdbf3e26a214af7a7493d73dd81cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'dbc58fe644627c5ae8d59a10c3d91a81') in 0.040632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/textures/modular_industrial_pipes_01_group02_rough_1k.png
-  artifactKey: Guid(efb4cfb6fd51f4d589b086f82f7a8f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/modular_industrial_pipes_01_group02_rough_1k.png using Guid(efb4cfb6fd51f4d589b086f82f7a8f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '0175cd15030ec6d95a636d3117123bfc') in 0.070030 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.879246 seconds.
-  path: Assets/modular_industrial_pipes_01_1k.fbx
-  artifactKey: Guid(58335046e050c49f4b46ff02809e6590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/modular_industrial_pipes_01_1k.fbx using Guid(58335046e050c49f4b46ff02809e6590) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'c166ce612ff0bab884e3a1ff80486d9d') in 0.238528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.919589 seconds.
-  path: Assets/modular_industrial_pipes_01_1k.fbx
-  artifactKey: Guid(58335046e050c49f4b46ff02809e6590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/modular_industrial_pipes_01_1k.fbx using Guid(58335046e050c49f4b46ff02809e6590) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '091e8e5641b814dbd9872259ac0796d4') in 0.270572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.608970 seconds.
-  path: Assets/textures/modular_industrial_pipes_01_group01.mat
-  artifactKey: Guid(64b48c91c06114422a4b37406bd830c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/modular_industrial_pipes_01_group01.mat using Guid(64b48c91c06114422a4b37406bd830c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'cbb19c0c06cc0464c8a05330a17383a5') in 0.058671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 234.247104 seconds.
-  path: Assets/textures/modular_industrial_pipes_01_group01.mat
-  artifactKey: Guid(64b48c91c06114422a4b37406bd830c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/modular_industrial_pipes_01_group01.mat using Guid(64b48c91c06114422a4b37406bd830c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'a74a64a0e1a4d4231035b870fcd2cd54') in 0.081940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 506.470259 seconds.
-  path: Assets/modular_industrial_pipes_01_1k.fbx
-  artifactKey: Guid(58335046e050c49f4b46ff02809e6590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/modular_industrial_pipes_01_1k.fbx using Guid(58335046e050c49f4b46ff02809e6590) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'e0990f1b5c699f04343aa8c2a9bec6b8') in 0.247257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.541661 seconds.
-  path: Assets/topWall.fbx
-  artifactKey: Guid(82869fc89eba648919c376d972a19124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topWall.fbx using Guid(82869fc89eba648919c376d972a19124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6899eca2abb1dc27924fa8786dae9c84') in 0.146046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.164562 seconds.
-  path: Assets/textures/large_sandstone_blocks_diff_1k.jpg
-  artifactKey: Guid(16682e7233c354906b3264546e0a22ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/large_sandstone_blocks_diff_1k.jpg using Guid(16682e7233c354906b3264546e0a22ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'b11973ff11a271bdfee4245c7a48fe75') in 0.048098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/textures/large_sandstone_blocks_nor_gl_1k.exr
-  artifactKey: Guid(c3bc6320e744141f9aa9f7a24012b8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/large_sandstone_blocks_nor_gl_1k.exr using Guid(c3bc6320e744141f9aa9f7a24012b8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'ec1f887a178f0e090951778d96cf9e58') in 0.080698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.981927 seconds.
-  path: Assets/textures/large_sandstone_blocks_nor_gl_1k.exr
-  artifactKey: Guid(c3bc6320e744141f9aa9f7a24012b8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/large_sandstone_blocks_nor_gl_1k.exr using Guid(c3bc6320e744141f9aa9f7a24012b8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '8672d30379d8dfb23b0b43749ce86689') in 0.038095 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.129629 seconds.
-  path: Assets/topWall.fbx
-  artifactKey: Guid(82869fc89eba648919c376d972a19124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topWall.fbx using Guid(82869fc89eba648919c376d972a19124) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '07349c2449e0c8f337d578939933a29d') in 0.108379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.678850 seconds.
-  path: Assets/topWall.fbx
-  artifactKey: Guid(82869fc89eba648919c376d972a19124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topWall.fbx using Guid(82869fc89eba648919c376d972a19124) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '1e761fc0f9deb753e93ca5fd81619ade') in 0.118256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.574565 seconds.
-  path: Assets/textures/large_sandstone_blocks.mat
-  artifactKey: Guid(7874ed661cfd640b8b64147115fde230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/large_sandstone_blocks.mat using Guid(7874ed661cfd640b8b64147115fde230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'e92af658a1cbc2b52cbf18120fefd8f1') in 0.075235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 224.403373 seconds.
-  path: Assets/textures/large_sandstone_blocks.mat
-  artifactKey: Guid(7874ed661cfd640b8b64147115fde230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/large_sandstone_blocks.mat using Guid(7874ed661cfd640b8b64147115fde230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '71db792b6aa914718a6c07aa78fa596f') in 0.198574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2192.688632 seconds.
-  path: Assets/topWall.fbx
-  artifactKey: Guid(82869fc89eba648919c376d972a19124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topWall.fbx using Guid(82869fc89eba648919c376d972a19124) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'ebbeb1ed4dab237cef1fea8a178a8f6c') in 0.132805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.794855 seconds.
-  path: Assets/textures/barrel_03 1.mat
-  artifactKey: Guid(39f7aa29db8874c31b98a07dc23df68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/barrel_03 1.mat using Guid(39f7aa29db8874c31b98a07dc23df68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '118f6e45d2ab23f9a49c759a78029e5e') in 0.111253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 124.047024 seconds.
-  path: Assets/textures/barrel_03 1.mat
-  artifactKey: Guid(39f7aa29db8874c31b98a07dc23df68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/barrel_03 1.mat using Guid(39f7aa29db8874c31b98a07dc23df68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'c939f57ebfdea114687e9f4e1fd579f6') in 0.134469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.558753 seconds.
-  path: Assets/textures/barrel_03 1.mat
-  artifactKey: Guid(39f7aa29db8874c31b98a07dc23df68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/barrel_03 1.mat using Guid(39f7aa29db8874c31b98a07dc23df68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'c7cd39ce330c8f59211981730d1663fc') in 0.042176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 409.002212 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(bc6271a7be08c4a7f974b90bbe625346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(bc6271a7be08c4a7f974b90bbe625346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a137acd72ff371e54ae65d89e021a7d4') in 0.001841 seconds 
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.73 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.73 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (446.7 KB). Loaded Objects now: 6096.
+Memory consumption went from 235.6 MB to 235.1 MB.
+Total: 5.287668 ms (FindLiveObjects: 0.581333 ms CreateObjectMapping: 0.406393 ms MarkObjects: 3.931709 ms  DeleteObjects: 0.367037 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003260 seconds.
+Registered in 0.006800 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/caseymanning/Documents/artstudi169/Payphone/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/caseymanning/Documents/artstudi169/Payphone/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.53 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.330 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2331ms)
+		BeginReloadAssembly (272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (139ms)
+		EndReloadAssembly (1904ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (542ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (1042ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (767ms)
+				ProcessInitializeOnLoadMethodAttributes (101ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.63 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 1.00 ms.
+Unloading 5502 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (445.8 KB). Loaded Objects now: 6101.
+Memory consumption went from 355.2 MB to 354.8 MB.
+Total: 8.041049 ms (FindLiveObjects: 0.598861 ms CreateObjectMapping: 0.559758 ms MarkObjects: 4.754723 ms  DeleteObjects: 2.115245 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003593 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/caseymanning/Documents/artstudi169/Payphone/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/caseymanning/Documents/artstudi169/Payphone/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.61 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.910 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1911ms)
+		BeginReloadAssembly (196ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (1575ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (509ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (794ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (575ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.86 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.62 ms.
+Unloading 5502 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (445.5 KB). Loaded Objects now: 6105.
+Memory consumption went from 355.6 MB to 355.2 MB.
+Total: 5.718580 ms (FindLiveObjects: 0.405074 ms CreateObjectMapping: 0.280437 ms MarkObjects: 4.671991 ms  DeleteObjects: 0.359762 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.86 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.54 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (439.3 KB). Loaded Objects now: 6105.
+Memory consumption went from 236.5 MB to 236.1 MB.
+Total: 5.786460 ms (FindLiveObjects: 0.401705 ms CreateObjectMapping: 0.330086 ms MarkObjects: 4.683753 ms  DeleteObjects: 0.369199 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.64 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (438.2 KB). Loaded Objects now: 6105.
+Memory consumption went from 236.5 MB to 236.0 MB.
+Total: 5.214072 ms (FindLiveObjects: 0.404071 ms CreateObjectMapping: 0.264097 ms MarkObjects: 4.188337 ms  DeleteObjects: 0.356143 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003157 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/caseymanning/Documents/artstudi169/Payphone/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/caseymanning/Documents/artstudi169/Payphone/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.216 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2217ms)
+		BeginReloadAssembly (257ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (1811ms)
+			LoadAssemblies (214ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (569ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (883ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (652ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.73 ms.
+Unloading 5502 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (446.0 KB). Loaded Objects now: 6109.
+Memory consumption went from 356.0 MB to 355.5 MB.
+Total: 6.006484 ms (FindLiveObjects: 0.558828 ms CreateObjectMapping: 0.467666 ms MarkObjects: 4.445973 ms  DeleteObjects: 0.532484 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.32 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.52 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (438.2 KB). Loaded Objects now: 6109.
+Memory consumption went from 236.8 MB to 236.4 MB.
+Total: 5.231921 ms (FindLiveObjects: 0.471128 ms CreateObjectMapping: 0.280064 ms MarkObjects: 4.107061 ms  DeleteObjects: 0.372381 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003576 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/caseymanning/Documents/artstudi169/Payphone/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/caseymanning/Documents/artstudi169/Payphone/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.53 ms.
+Preloading 1 native plugins for Editor in 0.54 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.727 seconds
+- Completed reload, in  2.032 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1728ms)
-		BeginReloadAssembly (241ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (130ms)
-		EndReloadAssembly (1352ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (406ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (660ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (465ms)
-				ProcessInitializeOnLoadMethodAttributes (94ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.65 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.49 ms.
-Unloading 5507 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (445.1 KB). Loaded Objects now: 6194.
-Memory consumption went from 413.2 MB to 412.8 MB.
-Total: 5.170784 ms (FindLiveObjects: 0.470627 ms CreateObjectMapping: 0.249515 ms MarkObjects: 4.081588 ms  DeleteObjects: 0.367662 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 173.358645 seconds.
-  path: Assets/Sounds
-  artifactKey: Guid(eda7bc4c23bac44c6b3326565186b2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds using Guid(eda7bc4c23bac44c6b3326565186b2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f44e23e2ac7d2ebe7ba54fea963148') in 0.017049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.972656 seconds.
-  path: Assets/_Sounds
-  artifactKey: Guid(eda7bc4c23bac44c6b3326565186b2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sounds using Guid(eda7bc4c23bac44c6b3326565186b2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942762bb90a6ea67a51a7a9055cf6b81') in 0.002673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.277972 seconds.
-  path: Assets/_Scripts
-  artifactKey: Guid(bc6271a7be08c4a7f974b90bbe625346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts using Guid(bc6271a7be08c4a7f974b90bbe625346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70156b90456b75e8528940fabf6859e3') in 0.002117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.042669 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(422d4716d261141599f46113271bca99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(422d4716d261141599f46113271bca99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0735b4278626023cb2b328f8a137c8') in 0.003335 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004474 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/caseymanning/Documents/artstudi169/Payphone/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/caseymanning/Documents/artstudi169/Payphone/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.52 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.709 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1710ms)
+	ReloadAssembly (2032ms)
 		BeginReloadAssembly (183ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (94ms)
-		EndReloadAssembly (1384ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (1685ms)
+			LoadAssemblies (153ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (428ms)
+			SetupTypeCache (535ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (679ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (809ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (476ms)
-				ProcessInitializeOnLoadMethodAttributes (93ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (565ms)
+				ProcessInitializeOnLoadMethodAttributes (126ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.50 ms.
-Unloading 5508 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (444.9 KB). Loaded Objects now: 6198.
-Memory consumption went from 413.5 MB to 413.1 MB.
-Total: 5.409969 ms (FindLiveObjects: 0.580736 ms CreateObjectMapping: 0.310371 ms MarkObjects: 4.100573 ms  DeleteObjects: 0.417201 ms)
+Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.52 ms.
+Unloading 5502 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (445.6 KB). Loaded Objects now: 6113.
+Memory consumption went from 356.3 MB to 355.9 MB.
+Total: 5.097235 ms (FindLiveObjects: 0.482991 ms CreateObjectMapping: 0.288329 ms MarkObjects: 3.940292 ms  DeleteObjects: 0.384265 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -624,36 +512,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 11.757672 seconds.
-  path: Assets/_Scenes
-  artifactKey: Guid(422d4716d261141599f46113271bca99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scenes using Guid(422d4716d261141599f46113271bca99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177c871666c50897ede9150337ef8531') in 0.013391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.709014 seconds.
-  path: Assets/Samples/XR Interaction Toolkit
-  artifactKey: Guid(afdb4dc5125414e3bb88c596e0ea63ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit using Guid(afdb4dc5125414e3bb88c596e0ea63ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc234f3ed3b6378364ca954929286a15') in 0.002557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.597359 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.0.1
-  artifactKey: Guid(effc79296a0914b0bb530424b5f3b04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.0.1 using Guid(effc79296a0914b0bb530424b5f3b04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687d5479ecab75883007d0b240b7554b') in 0.002972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.979318 seconds.
-  path: Assets/Television_02.fbx
-  artifactKey: Guid(b9e2f11fd61c049d2afc6198a1f54bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Television_02.fbx using Guid(b9e2f11fd61c049d2afc6198a1f54bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '44f588a477785730d2cdcc5fa663f18b') in 0.557973 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.241843 seconds.
-  path: Assets/Television_01_1k.fbx
-  artifactKey: Guid(60646ed7bc8924743845f52876818c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Television_01_1k.fbx using Guid(60646ed7bc8924743845f52876818c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '6e1bbc2bdd04ae15d462fe9515b22da8') in 0.199625 seconds 
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.21 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.68 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (447.5 KB). Loaded Objects now: 6113.
+Memory consumption went from 237.2 MB to 236.7 MB.
+Total: 4.737526 ms (FindLiveObjects: 0.386263 ms CreateObjectMapping: 0.281391 ms MarkObjects: 3.659288 ms  DeleteObjects: 0.409358 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
